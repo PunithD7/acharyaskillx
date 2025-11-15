@@ -1,0 +1,17 @@
+{
+  "schema": "./schema.ts",
+  "out": "./drizzle",
+  "dialect": "postgresql",
+  "connection": {
+    "url": "postgresql://neondb_owner:npg_RQI9ZcsgzK1C@ep-sweet-cake-aeitxl5u-pooler.c-2.us-east-2.aws.neon.tech/prashikshan?sslmode=require%26channel_binding=require"
+  }
+}
+
+
+
+
+
+
+
+
+

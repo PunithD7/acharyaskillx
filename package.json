@@ -1,0 +1,12 @@
+{
+  "name": "combined-project-workspace",
+  "private": true,
+  "workspaces": [
+    "SkillQuestify",
+    "role-match-voice-main"
+  ],
+  "description": "Combined workspace for SkillQuestify (main portal) and role-match-voice-main (AI interview). No code changes were made to either project.",
+  "scripts": {
+    "dev": "npx concurrently \"npm:dev --prefix SkillQuestify/SkillQuestify\" \"npm:dev --prefix role-match-voice-main/role-match-voice-main\""
+  }
+}
